@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .main-content {
+    min-height: 100vh;
+    padding-bottom: 4rem; 
+    box-sizing: border-box; 
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .contact-info, .social-media {
+    margin: 10px 0;
+  }
+  
+  .social-link {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color: #000000;
+  }
+  
+  .footer-note {
+    margin-top: 10px; 
+  }
